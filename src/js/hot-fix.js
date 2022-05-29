@@ -1,5 +1,5 @@
-let hotFix = "我是紧急修复的文件";
-console.log(hotFix);
+let master = "我是master的test";
+console.log(master);
 setTimeout(() => {
-    console.log("叮！修复完毕。");
+    console.log("等待合并中...");
 },3000);
