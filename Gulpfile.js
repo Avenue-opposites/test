@@ -37,6 +37,7 @@ function Watch() {
     watch(JSpath,watchOptions,buildJS);
     watch(CSSpath,watchOptions,buildCSS);
 };
+
 exports.buildJS = buildJS;
 exports.buildCSS = buildCSS;
 exports.Watch = Watch;
